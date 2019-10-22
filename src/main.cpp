@@ -20,7 +20,7 @@ Mat RenderFrame(void)
 	CScene scene;
 	
 	// Load scene description
-	scene.ParseOBJ("../../../data/cow.obj");
+	scene.ParseOBJ("data/cow.obj"); // this was different but for me it works like this. you can run it from project folder using ./bin/eyden-tracer
 
 #ifdef ENABLE_BSP
 	// Build BSPTree
